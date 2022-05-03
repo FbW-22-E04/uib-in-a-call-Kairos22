@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+   
+ padding: 0;
+}
+body {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(15deg, rgb(202, 202, 213) 50%, rgb(145, 151, 152) 50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+.phone {
+    border-width: 40px 15px;
+    border-color: black;
+    border-style: solid ;
+    border-radius: 20px;
+    background-image: url(./images/man.jpg);
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    position: relative;
+
+}
+.woman {
+    border: 4px white solid;
+    height: 108px;
+    width: 118px;
+    position: absolute;
+    top: 25px;
+    left: 240px;
+}
+
+.womanimage {
+    height: 100px;
+    width: 110px;
+
+}
+button {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.486);
+    position: absolute;
+    bottom: 0;
+    border: none;
+    color: white;
+}
+
+
+
